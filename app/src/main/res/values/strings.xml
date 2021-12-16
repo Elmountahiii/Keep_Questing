@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Keep Questing</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="join_to_city_adventure">Join to city adventure !</string>
+    <string name="login">Login</string>
+    <string name="registration">Registration</string>
+    <string name="login_with_touch_id">Login With Touch ID</string>
+    <string name="touch_in">Touch in</string>
+    <string name="use_password">Use Password</string>
+    <string name="or">Or</string>
+    <string name="login_with_password">Login with Password</string>
+    <string name="user_name">user name</string>
+    <string name="password">Password</string>
+    <string name="city_hunters_game">City Hunters Game</string>
+    <string name="skip">skip</string>
+    <string name="purpose">Purpose</string>
+    <string name="longText1">To find the control points set by the organizers in the quickest way arriving at the location before other teams, completing the task and moving on to the next one. The game continues until all tasks are completed.</string>
+    <string name="control_points">Control points</string>
+    <string name="longText2">Addresses, local names and landmarks, schematic diagrams and photographs, combined descriptions and urban riddles.</string>
+    <string name="longText3">At the start, each team must be in a certain location. At a given time, each team located at the starting point receives the first clue. Then they can move forward to the next point. If the team has no idea where it is, they can get the hint 5 minutes after the start. After another 5 minutes, team can ask for a second prompt. After another 5 minutes, team can get the point coordinates. The more hints are used, the less points will be receive in total. The faster team completes the quest, the more points they will receive.</string>
+    <string name="scenario">Scenario</string>
+    <string name="numbers">Numbers</string>
+    <string name="longText4">A game of 4 to 6 points.\nTime from 2 to 4 hours.\nThe number of teams is from 1 to 6.\nPlayers in a team from 2 to 4.</string>
+</resources>

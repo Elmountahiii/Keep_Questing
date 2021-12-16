@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/splashScreen">
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="com.my.keepquesting.view.fragment.SplashScreen"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/action_splashScreen_to_onboardingScreen"
+            app:destination="@id/onboardingScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/onboardingScreen"
+        android:name="com.my.keepquesting.view.fragment.OnboardingScreen"
+        android:label="fragment_on_boarding_screen"
+        tools:layout="@layout/fragment_on_boarding_screen" >
+        <action
+            android:id="@+id/action_onboardingScreen_to_startScreen"
+            app:destination="@id/startScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/startScreen"
+        android:name="com.my.keepquesting.view.fragment.StartScreen"
+        android:label="fragment_start_screen"
+        tools:layout="@layout/fragment_start_screen" >
+        <action
+            android:id="@+id/action_startScreen_to_registrationScreen"
+            app:destination="@id/registrationScreen" />
+        <action
+            android:id="@+id/action_startScreen_to_loginWithPasswordScreen"
+            app:destination="@id/loginWithPasswordScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrationScreen"
+        android:name="com.my.keepquesting.view.fragment.RegistrationScreen"
+        android:label="fragment_registration_screen"
+        tools:layout="@layout/fragment_registration_screen" >
+        <action
+            android:id="@+id/action_registrationScreen_to_logInWithIdScreen"
+            app:destination="@id/logInWithIdScreen" />
+        <action
+            android:id="@+id/action_registrationScreen_to_startPageScreen"
+            app:destination="@id/startPageScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginWithPasswordScreen"
+        android:name="com.my.keepquesting.view.fragment.LoginWithPasswordScreen"
+        android:label="fragment_login_with_password_screen"
+        tools:layout="@layout/fragment_login_with_password_screen" >
+        <action
+            android:id="@+id/action_loginWithPasswordScreen_to_logInWithIdScreen"
+            app:destination="@id/logInWithIdScreen" />
+        <action
+            android:id="@+id/action_loginWithPasswordScreen_to_startPageScreen"
+            app:destination="@id/startPageScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/logInWithIdScreen"
+        android:name="com.my.keepquesting.view.fragment.LogInWithIdScreen"
+        android:label="fragment_log_in_with_id_screen"
+        tools:layout="@layout/fragment_log_in_with_id_screen" >
+        <action
+            android:id="@+id/action_logInWithIdScreen_to_startPageScreen"
+            app:destination="@id/startPageScreen" />
+        <action
+            android:id="@+id/action_logInWithIdScreen_to_loginWithPasswordScreen"
+            app:destination="@id/loginWithPasswordScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/startPageScreen"
+        android:name="com.my.keepquesting.view.fragment.StartPageScreen"
+        android:label="fragment_start_page_screen"
+        tools:layout="@layout/fragment_start_page_screen" />
+</navigation>
